@@ -3,7 +3,7 @@ Instructions and template for final projects.
 
 | Name | Date |
 |:-------|:---------------|
-|Your name here | Completion date|
+|ODIA AKIOYA | 03-30-2019|
 
 -----
 
@@ -44,6 +44,8 @@ Brief (no more than 1-2 paragraph) description about how you decided to approach
 ### Results
 
 Brief (2 paragraph) description about your results. Include:
+
+![Gradient_Boosting](https://user-images.githubusercontent.com/47048059/54800682-9b11e980-4c39-11e9-984c-72171b8d8c38.png)
 
 - At least 1 figure
 - At least 1 "value" that summarizes either your data or the "performance" of your method
