@@ -32,7 +32,7 @@ The dataset used in this project is the diabetes dataset which is one of the tra
 
 ### Methods
 
-Before modeling the dataset, the data itself was organized into a matrix, otherwise known as a heat map as shown in Figure 1 below. From this matrix, all feature to feature correlation as well as feature to target correlation can be observed. The methods used in modeling this dataset are Decision Tree, Random Forest, and Gradient Boosting. These regression models and algorithms are in-built in scikit-learn and their pseudocode can be found [here](http://scipy-lectures.org/packages/scikit-learn/index.html#introduction-problem-settings). 
+Before modeling the dataset, the data itself was organized into a matrix, otherwise known as a heat map as shown in Figure 1 below. From this matrix, all feature to feature correlation as well as feature to target correlation can be observed. The regression algorithms used in modeling this dataset are Decision Tree, Random Forest, and Gradient Boosting. These regression models and algorithms are in-built in scikit-learn and their pseudocode can be found [here](http://scipy-lectures.org/packages/scikit-learn/index.html#introduction-problem-settings). 
 
 - why you chose this method
 
