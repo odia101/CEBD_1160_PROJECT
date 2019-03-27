@@ -28,7 +28,7 @@ In this work, a publicly available diabetes dataset has been explored and modele
 
 ### Introduction
 
-Brief (no more than 1-2 paragraph) description about the dataset. Can copy from elsewhere, but cite the source (i.e. at least link, and explicitly say if it's copied from elsewhere).
+The dataset used in this project is the diabetes dataset which is one of the training datasets provided freely and publicly on scikit-learn [webpage](https://scikit-learn.org/stable/datasets/index.html#toy-datasets). It consists of 10 baseline variables: age, sex, body mass index(bmi), blood pressure (bp), s1, s2, s3, s4, s5, s6 where s1 to s6 represents different blood serums. These variables are information and blood samples collect from a total of 442 diabetes patients. The data also contains an outcome or target feature which is a quantitative measure of disease progression after one year of baseline. The dataset can be downloaded [here](https://www4.stat.ncsu.edu/~boos/var.select/diabetes.html) or imported directly from the scikit-learn library.  
 
 ### Methods
 
