@@ -48,7 +48,9 @@ Brief (no more than 1-2 paragraph) description about how you decided to approach
 
 Brief (2 paragraph) description about your results. Include:
 
-  
+| Name | 
+|:-------|
+|Fig. 1: Heat Map | 
 
 | ![Decision_Tree](https://user-images.githubusercontent.com/47048059/55043471-d2eba900-500c-11e9-9f01-03627c8d3393.png) | ![Random_Forest](https://user-images.githubusercontent.com/47048059/55043474-d848f380-500c-11e9-892a-143fff7696ba.png) | ![Gradient_Boosting](https://user-images.githubusercontent.com/47048059/55043478-de3ed480-500c-11e9-95ea-6e4a1e039c61.png) |
 |:-------|:---------------|:---------------|
