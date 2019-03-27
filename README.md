@@ -13,9 +13,9 @@ Instructions and template for final projects.
 ### Resources
 This repository contains the following:
 
-- Python script for our analysis: newscript.py
+- Python script for our analysis: [newscript.py](https://github.com/odia101/CEBD_1160_PROJECT/blob/master/newscript.py)
 - Results figure/saved file: [Plots/](https://github.com/odia101/CEBD_1160_PROJECT/tree/master/Plots)
-- runtime-instructions in a file named RUNME.md
+- Runtime-instructions: [RUNME.md](https://github.com/odia101/CEBD_1160_PROJECT/blob/master/RUNME.md)
 
 -----
 
