@@ -41,19 +41,19 @@ Before modeling the dataset, the data itself was organized into a matrix, otherw
 
 ### Results
 
-Brief (2 paragraph) description about your results. Include:
+The results obtained from the regression models are as shown in the figures below.
 
 | ![Decision_Tree](https://user-images.githubusercontent.com/47048059/55043471-d2eba900-500c-11e9-9f01-03627c8d3393.png) | ![Random_Forest](https://user-images.githubusercontent.com/47048059/55043474-d848f380-500c-11e9-892a-143fff7696ba.png) | ![Gradient_Boosting](https://user-images.githubusercontent.com/47048059/55043478-de3ed480-500c-11e9-95ea-6e4a1e039c61.png) |
 |:-------|:---------------|:---------------|
 | Fig. 2: Decision Tree | Fig. 3: Random Forest | Fig. 4: Gradient Boosting |
+
+The table below outlines the performance accuracy of the models.
 
 | Performance Analysis | Decision Tree | Random Forest | Gradient Boosting |
 |:-------|:---------------|:---------------|:---------------|
 |Accuracy on Training Set | 1.000| 0.917| 0.539|
 |Accuracy on test set | 0.094| 0.430|0.387|
 
-- At least 1 figure
-- At least 1 "value" that summarizes either your data or the "performance" of your method
 - A short explanation of both of the above
 
 ### Discussion
