@@ -48,9 +48,11 @@ Brief (no more than 1-2 paragraph) description about how you decided to approach
 
 Brief (2 paragraph) description about your results. Include:
 
-| Decision Tree | Random Forest | Gradient Boosting |
+  
+
+| ![Decision_Tree](https://user-images.githubusercontent.com/47048059/55043471-d2eba900-500c-11e9-9f01-03627c8d3393.png) | ![Random_Forest](https://user-images.githubusercontent.com/47048059/55043474-d848f380-500c-11e9-892a-143fff7696ba.png) | ![Gradient_Boosting](https://user-images.githubusercontent.com/47048059/55043478-de3ed480-500c-11e9-95ea-6e4a1e039c61.png) |
 |:-------|:---------------|:---------------|
-|ODIA AKIOYA | 03-30-2019| 03-30-2019|
+| Fig. 2: Decision Tree | Fig. 3: Random Forest | Fig. 4: Gradient Boosting |
 
 - At least 1 figure
 - At least 1 "value" that summarizes either your data or the "performance" of your method
