@@ -1,8 +1,7 @@
 [Machine.Learning.on.Diabetes.Dataset_Odia.Akioya.pptx](https://github.com/odia101/CEBD_1160_PROJECT/files/2999465/Machine.Learning.on.Diabetes.Dataset_Odia.Akioya.pptx)
 
 
-# cebd1160_project_template
-Instructions and template for final projects.
+# Final_Project_CEBD1160
 
 | Name | Date |
 |:-------|:---------------|
