@@ -21,6 +21,8 @@ This repository contains the following:
 
 ## Research Question
 
+### Can we save the time and resources spent collecting irrelevant or not so important medical information from patients by modeling the diabetes dataset to predict the key features that are most important in analyzing disease progression in confirmed diabetes patients?
+
 ### Abstract
 
 In this work, a publicly available diabetes dataset has been explored and modeled through machine learning to analyze which features are most important in predicting disease progression in diabetic patients. This finding will help researchers and medical personnels narrow their focus to key features which are the key contributors to the outcome which in this case is disease progression in diabetes patients over period of one year. Three differnt models: Decision Tree, Random Forest, and Gradient Boosting have been impored in modeling our data to visualize feature importance. Their respective results and performance accuracy have been compared and analyzed.   
