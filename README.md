@@ -48,7 +48,7 @@ Brief (no more than 1-2 paragraph) description about how you decided to approach
 
 Brief (2 paragraph) description about your results. Include:
 
-| Name | 
+| ![Heatmap_Diabetes](https://user-images.githubusercontent.com/47048059/55043879-843f0e80-500e-11e9-8d1f-113b3e63b1bc.png) | 
 |:-------|
 |Fig. 1: Heat Map | 
 
