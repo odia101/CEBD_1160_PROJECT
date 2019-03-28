@@ -5,7 +5,7 @@
 
 | Name | Date |
 |:-------|:---------------|
-|ODIA AKIOYA | 03-30-2019|
+|ODIA AKIOYA | 03-27-2019|
 
 -----
 
@@ -24,7 +24,7 @@ This repository contains the following:
 
 ### Abstract
 
-In this work, a publicly available diabetes dataset has been explored and modeled through machine learning to analyze which features are most important in predicting disease progression in diabetic patients. This finding will help researchers and medical personnels narrow their focus to key features which are the key contributors to the outcome which in this case is disease progression in diabetes patients over period of one year. Three differnt models: Decision Tree, Random Forest, and Gradient Boosting have been impored in modeling our data to visualize feature importance. Their respective results and performance accuracy have been compared and analyzed.   
+In this work, a publicly available diabetes dataset has been explored and modeled through machine learning to analyze feature importance in the aspect of predicting disease progression in diabetic patients. This finding will help researchers and medical personnels narrow their focus to key features which are the key contributors to the outcome which in this case is disease progression in diabetes patients over period of one year. Three differnt models: Decision Tree, Random Forest, and Gradient Boosting have been impored in modeling our data to visualize feature importance. Their respective results and performance accuracy have been compared and analyzed.   
 
 ### Introduction
 
@@ -55,15 +55,18 @@ The table below outlines the performance accuracy of the models.
 |Accuracy on Training Set | 1.000| 0.917| 0.539|
 |Accuracy on test set | 0.094| 0.430|0.387|
 
-- A short explanation of both of the above
+These results are discussed in the next section.
 
 ### Discussion
-Brief (no more than 1-2 paragraph) description about what you did. Include:
 
-- interpretation of whether your method "solved" the problem
-- suggested next step that could make it better.
+The accuracy on training set from the decision tree model is 100% while that on the test set is poor at about 9%. This indicates that the model may be overfitting. However, the feature importance plot shows that BMI is the most important feature followed by S5 and S4 respectively. On the other hand, accuracy on training set for the Random tree model which is at about 91% yeilded an improved accuracy on test set of about 43%. This model also gives the most importance to BMI followed by S5 and BP. This may have yielded a slightly different result than the decision tree model because it forces the algorithm to consider many parameters. Random forest captures a  broader picture since it applies multiple trees compared to the Decision tree which uses only a single tree. Upon implementing the Gradient boosting model, it can be observed that both accuracies depreciated in this model compared to the Random tree even though its accuracy on test set outperformed those from the Decision Tree model. However, the feature importance plot results in a similar outcome with the other models.  
+
+Due to the randomness and differences in the outcome of the results obtained from the three different models, it is difficult to confidently state from this work which model is best for analyzing feature importance in the diabetes dataset. Although all models favored BMI, S5, BP, S4 as the most important features, there may also be other features that were not captured by these algorithms due to overfitting and model complexity. Hence, for future work, it is recommended that stronger pre-prunning is applied to reduce overfitting. This can be achieved by limiting the maximum depth or lower the learning rate.
 
 ### References
-All of the links
 
--------
+[1] https://towardsdatascience.com/machine-learning-for-diabetes-562dd7df4d42 (Accessed March 18th, 2019)
+[2] https://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html (Accessed March 19th, 2019)
+[3] James, R., T. K. Young, C.A. Mustard, and J. Blanchard. 1998. The health of Canadians with diabetes. Health Reports. Statistics Canada, Catalogue no. 82-003. Vol. 9, no. 3. (accessed March 22nd, 2019).
+[4] https://www.datacamp.com/community/tutorials/decision-tree-classification-python (Accessed March 20th, 2019)
+
